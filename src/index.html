@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/index.css">
+    </head>
+    <body>
+        <div id="splash">
+            <div class="brand-container">
+                <img class="logo" src="assets/images/icon.png" alt="Logo" />
+            </div>
+
+            <div class="loader-container">
+                <div class="spinner"></div>
+                <p class="message" id="update-message">Chargement...</p>
+                <progress id="download-progress" value="0" max="100"></progress>
+            </div>
+
+            <div class="footer-left">
+                <button id="help-btn" class="help-button">Un problème de connexion ?</button>
+            </div>
+        </div>
+        <script src="assets/js/index.js" type="module"></script>
+    </body>
+</html>
