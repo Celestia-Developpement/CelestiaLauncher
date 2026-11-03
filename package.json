@@ -1,7 +1,7 @@
 {
     "name": "celestia",
     "preductname": "Celestia Launcher",
-    "version": "5.0.4",
+    "version": "0.1.0",
     "description": "Celestia modded server launcher",
     "main": "src/app.js",
     "author": "Amitron",
